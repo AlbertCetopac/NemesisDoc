@@ -1,0 +1,27 @@
+$git pull  # Met à jour votre dépôt local et votre répertoire de travail depuis le dépôt en ligne
+
+$git status # Afficher les changements non "commit"
+
+$git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
+
+$git commit # Commit les changements sur votre dépôt local, ajoutez l'option -m pour spécifier le message
+
+$git push # Met à jour le dépôt distant par rapport à votre dépôt local
+
+----
+
+$git init # Initialise un répertoire de travail git
+
+$git config --global user.name "usr" # Configure votre username
+
+$git config --global user.email "email" # ...
+
+$git branch # Affiche les branches
+
+$git branch "Branche" # Créer une branche
+
+$git checkout <branchName> # Change la branche courante
+
+$git rm <file> # Supprime un fichier
+
+$git rm -r <rep> # Supprime un répertoire
