@@ -9,6 +9,7 @@ $git commit # Commit les changements sur votre dépôt local, ajoutez l'option -
 $git push # Met à jour le dépôt distant par rapport à votre dépôt local
 
 ----
+$git clone url.git #Clone un projet dans le répertoire courant
 
 $git init # Initialise un répertoire de travail git
 
