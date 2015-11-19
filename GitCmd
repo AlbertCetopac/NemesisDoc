@@ -2,16 +2,21 @@ $git pull  # Met à jour votre dépôt local et votre répertoire de travail dep
 
 $git status # Vérifie s'il existe des changements non "commit"
 
-$git diff # Affiche les changements non "commit" --word-diff pour plus de détails
+$git diff # Affiche les changements non "commit" en détail 
+          --word-diff pour plus de détails
 
 $git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
 
-$git commit # Commit les changements sur votre dépôt local, ajoutez l'option -m pour spécifier le message
+$git commit # Commit les changements sur votre dépôt local
+          -m pour spécifier le message 
+          -a pour faire un add * (fichiers modifiés et pas nouveaux)
+          -am "message" pour combiner les deux
 
 $git push # Met à jour le dépôt distant par rapport à votre dépôt local
 
 ----
-$git clone url.git #Clone un projet dans le répertoire courant
+
+$git clone url.git # Clone un projet dans le répertoire courant
 
 $git init # Initialise un répertoire de travail git
 
@@ -24,6 +29,10 @@ $git branch # Affiche les branches
 $git branch "Branche" # Créer une branche
 
 $git checkout <branchName> # Change la branche courante
+
+$git show # Montre le dernier commit 
+        -p pour plus de détails
+        --stat --summary Pour résumer avec les +/- de git
 
 $git rm <file> # Supprime un fichier
 
