@@ -1,6 +1,8 @@
 $git pull  # Met à jour votre dépôt local et votre répertoire de travail depuis le dépôt en ligne
 
-$git status # Afficher les changements non "commit"
+$git status # Vérifie s'il existe des changements non "commit"
+
+$git diff # Affiche les changements non "commit" --word-diff pour plus de détails
 
 $git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
 
