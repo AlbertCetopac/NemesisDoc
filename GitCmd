@@ -1,4 +1,5 @@
-$git pull  # Met à jour votre dépôt local et votre répertoire de travail depuis le dépôt en ligne
+$git pull  # Met à jour votre dépôt local($git fetch) et votre répertoire de travail($git merge) 
+depuis le dépôt en ligne
 
 $git status # Vérifie s'il existe des changements non "commit"
 
@@ -33,6 +34,7 @@ $git checkout <branchName> # Change la branche courante
 $git show # Montre le dernier commit 
         -p pour plus de détails
         --stat --summary Pour résumer avec les +/- de git
+        --oneline
 
 $git rm <file> # Supprime un fichier
 
