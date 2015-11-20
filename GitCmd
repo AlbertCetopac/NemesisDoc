@@ -27,9 +27,13 @@ $git config --global user.email "email" # ...
 
 $git branch # Affiche les branches
 
-$git branch "Branche" # Créer une branche
+$git branch <branchName> # Créer une branche
 
 $git checkout <branchName> # Change la branche courante
+
+$git merge <branchName> # Relit la branche au master (Risques importants de conflit)
+
+$git branch -d <branchName> # Supprime une branche
 
 $git show # Montre le dernier commit 
         -p pour plus de détails
