@@ -39,3 +39,13 @@ $git show # Montre le dernier commit
 $git rm <file> # Supprime un fichier
 
 $git rm -r <rep> # Supprime un répertoire
+
+$git stash #Stock toutes les modifications de l'espace de travail pour les stocker à coté (système de pile)
+
+$git stash show #Montre la dernière modification
+
+$git stash pop # Récupérer les derniers changements
+
+$git stash drop # Supprimer les changements
+
+$git stash list # Montre la liste des modifications, s'il y en a plusieurs
