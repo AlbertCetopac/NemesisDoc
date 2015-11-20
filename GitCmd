@@ -40,7 +40,7 @@ $git rm <file> # Supprime un fichier
 
 $git rm -r <rep> # Supprime un répertoire
 
-$git stash #Stock toutes les modifications de l'espace de travail pour les stocker à coté (système de pile)
+$git stash #Stock toutes les modifications de l'espace de travail pour les stocker à coté du dépot local (système de pile)
 
 $git stash show #Montre la dernière modification
 
