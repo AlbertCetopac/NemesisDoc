@@ -14,6 +14,8 @@ $git commit # Commit les changements sur votre dépôt local
           -a pour faire un add * (fichiers modifiés et pas nouveaux)
           -am "message" pour combiner les deux
 
+$git revert <n° commit> # Annule un commit : ajoute un nouveau commit qui annule les modifications du commit
+
 $git push # Met à jour le dépôt distant par rapport à votre dépôt local
 
 ----
