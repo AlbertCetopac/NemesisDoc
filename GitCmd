@@ -5,7 +5,7 @@ $git status # Vérifie s'il existe des changements non "commit"
 
 $git diff # Affiche les changements non "commit" en détail 
           --word-diff pour plus de détails
-          [n°commit] [n°commit] pour la différence entre deux commits
+          <n°commit> <n°commit> pour la différence entre deux commits
 
 $git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
 
@@ -42,7 +42,7 @@ $git show # Montre le dernier commit
         --oneline
         HEAD~1 montre avant dernier commit
 
-$git tag [nom] [n°commit] #Donne un nom à un commit plutot que le chiffre de base
+$git tag <name> <n°commit> #Donne un nom à un commit plutot que le chiffre de base
 
 $git rm <file> # Supprime un fichier
 
@@ -58,3 +58,19 @@ $git stash pop # Récupérer les derniers changements dans la pile
 $git stash drop # Supprimer les derniers changements dans la pile
 
 $git stash list # Montre la liste des modifications
+
+----
+
+$git grep <research> # Cherche dans tous les fichiers une chaine de caractères
+                    <n°commit> pour ne chercher que dans ce commit
+
+$git blame <fichier> # Annote les lignes du fichier avec le nom de la personne qui a modifié et le commit
+
+----
+$git bisect : sert à rechercher un commit qui apporte un bug
+
+$git bisect start # Démarre git bisect
+$git bisect bad <commit> # Donner la premiere mauvaise version
+$git bisect good <commit> # Donner la dernière bonne version, où le bug n'apparait pas
+A ce moment, git bisect redonne des versions du projet à tester directement, répondre par git bisect bad/good
+$git bisect reset # Réinitialise le dossier de travail
