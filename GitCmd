@@ -72,5 +72,5 @@ $git bisect : sert à rechercher un commit qui apporte un bug
 $git bisect start # Démarre git bisect
 $git bisect bad <commit> # Donner la premiere mauvaise version
 $git bisect good <commit> # Donner la dernière bonne version, où le bug n'apparait pas
-A ce moment, git bisect redonne des versions du projet à tester directement, répondre par git bisect bad/good
+A ce moment, git bisect redonne des versions du projet à tester directement, répondre par git bisect bad/good/skip
 $git bisect reset # Réinitialise le dossier de travail
