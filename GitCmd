@@ -5,6 +5,7 @@ $git status # Vérifie s'il existe des changements non "commit"
 
 $git diff # Affiche les changements non "commit" en détail 
           --word-diff pour plus de détails
+          [n°commit] [n°commit] pour la différence entre deux commits
 
 $git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
 
@@ -39,6 +40,9 @@ $git show # Montre le dernier commit
         -p pour plus de détails
         --stat --summary Pour résumer avec les +/- de git
         --oneline
+        HEAD~1 montre avant dernier commit
+
+$git tag [nom] [n°commit] #Donne un nom à un commit plutot que le chiffre de base
 
 $git rm <file> # Supprime un fichier
 
