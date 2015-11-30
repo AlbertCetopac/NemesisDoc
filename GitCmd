@@ -8,6 +8,7 @@ $git diff # Affiche les changements non "commit" en détail
           <n°commit> <n°commit> pour la différence entre deux commits
 
 $git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
+$git reset # Annule un add
 
 $git commit # Commit les changements sur votre dépôt local
           -m pour spécifier le message 
