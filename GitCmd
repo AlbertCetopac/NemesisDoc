@@ -8,12 +8,14 @@ $git diff # Affiche les changements non "commit" en détail
           <n°commit> <n°commit> pour la différence entre deux commits
 
 $git add <file> ou $git add -A # Ajoute un fichier, ou tout, au dépôt
-$git reset # Annule un add
+          -p Rend le add interactif pour sélectionner les fichiers à ajouter au dépot
+$git reset # Réinitialise le dépot
 
 $git commit # Commit les changements sur votre dépôt local
           -m pour spécifier le message 
           -a pour faire un add * (fichiers modifiés et pas nouveaux)
           -am "message" pour combiner les deux
+          --amend intègre les changements dans le dernier commit qui est remplacé
 
 $git revert <n° commit> # Annule un commit : ajoute un nouveau commit qui annule les modifications du commit
 
