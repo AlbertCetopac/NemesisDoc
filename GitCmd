@@ -1,5 +1,6 @@
 $git pull  # Met à jour votre dépôt local($git fetch) et votre répertoire de travail($git merge) 
 depuis le dépôt en ligne
+          --rebase au lieu de fusionner les changements locaux, tente de les ajouter à la suite du master
 
 $git status # Vérifie s'il existe des changements non "commit"
 
